@@ -1,8 +1,11 @@
-#Data 
+is_magician = True
+is_expert = False
 
-user_name = input('Enter User Name: ')
-password = input('Enter Password: ')
-
-pass_hidden = '*' * len(password)
-
-print(f'{user_name}, your password {pass_hidden} is {len(password)} letter long')
+if is_magician and is_expert:
+  print("You are a master magician")
+  
+elif is_magician and not is_expert:
+  print("At least you\'re getting there")
+  
+else:
+  print("You need magic powers")
