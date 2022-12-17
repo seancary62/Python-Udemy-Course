@@ -1,7 +1,8 @@
-#Data Types
-print('Hello World')
+#Data 
 
+user_name = input('Enter User Name: ')
+password = input('Enter Password: ')
 
-#Classes -> custom types
+pass_hidden = '*' * len(password)
 
-#Specialized Data Types
+print(f'{user_name}, your password {pass_hidden} is {len(password)} letter long')
