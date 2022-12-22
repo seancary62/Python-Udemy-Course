@@ -21,3 +21,13 @@ print(list(filter(lambda x: x > 50, scores)))
 #4 Combine all of the numbers that are in a list on this file using reduce (my_numbers and scores). What is the total?
 
 print(reduce(lambda acc, x: x + acc, my_numbers))
+
+my_list = [5,4,3]
+
+print(list(map(lambda x: x**2, my_list)))
+
+a = [(0,2), (4,3), (9,9), (10,-1)]
+
+a.sort(key=lambda x: x[1])
+
+print(a)
